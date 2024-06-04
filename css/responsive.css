@@ -66,14 +66,14 @@
     }
     /* banner*/
     .banner__title h1 span {
-        font-size: 3rem;
-        color: black;
+        font-size: 5rem;
+        color: white;
     }
     .banner__title h1 {
-        background-color: rgba(27, 67, 247, 0.767);
+        
         border-radius: 8px;
         text-align: center;
-        font-size: 3.5rem;
+        font-size: 6rem;
         margin: auto 2rem;
         margin-bottom: 25rem;
         text-transform: uppercase;
@@ -249,10 +249,10 @@
     /* banner*/
     .banner__title h1 span {
         font-size: 3.5rem;
-        color: black;
+        color: white    ;
     }
     .banner__title h1 {
-        background-color: rgba(27, 67, 247, 0.767);
+        
         border-radius: 8px;
         text-align: center;
         font-size: 5rem;
@@ -464,10 +464,10 @@
     }
     .banner__title h1 span {
         font-size: 4rem;
-        color: black;
+        color: white;
     }
     .banner__title h1 {
-        background-color: rgba(27, 67, 247, 0.767);
+        
         border-radius: 8px;
         font-size: 6rem;
         margin: auto 2rem;
@@ -475,7 +475,6 @@
         text-align: center;
         text-transform: uppercase;
         padding: 1rem;
-        margin-left: 12rem;
     }
     /* nosotros*/
     .nosotros {

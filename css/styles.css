@@ -372,8 +372,8 @@
         background-color: #353535dc;
         height: 70vh;
         color: white;
-        display: flex;
-        align-items: center;
+        text-align: center;
+        vertical-align: middle;
     }
 
     .banner-cotizacion{
@@ -390,22 +390,25 @@
        margin: 0;
        padding: 18px 0;
     }
+
+    .banner__title{
+        padding-top: 8rem;
+    }
     
     .banner__title h1 {
-        background-color: rgba(67, 139, 207, 0.575);
-        border-radius: 8px;
+        color: #fff;
         text-align: center;
-        font-size: 2.2rem;
+        font-size: 4rem;
         margin: auto 2rem;
         margin-bottom: 25rem;
         text-transform: uppercase;
         padding: 1rem;
-        display: none;
+        
     }
     
     .banner__title h1 span {
-        font-size: 1.7rem;
-        color: black;
+        font-size: 3rem;
+        color: white;
     }
 
     .nosotros{
