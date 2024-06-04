@@ -493,7 +493,6 @@
         background-position: center;
         background-blend-mode: soft-light;
         background-color: #353535dc;
-        background-attachment: fixed;
         height: 75vh;
         color: white;
     }

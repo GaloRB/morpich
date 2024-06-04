@@ -486,6 +486,9 @@
         font-size: 2.2rem;
     }
     /* mision-vision*/
+    .mision-vision{
+        background-attachment: fixed;
+    }
     .mision-vision__text {
         padding: 1rem;
         margin: 2rem 10rem;
