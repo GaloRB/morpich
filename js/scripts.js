@@ -110,6 +110,15 @@ function mostrarScroll5() {
     }
 }
 
+function DownloadFromUrl(fileURL, fileName) {
+    var link = document.createElement('a');
+    link.href = fileURL;
+    link.download = fileName;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  } 
+
 window.addEventListener('scroll', mostrarScroll);
 window.addEventListener('scroll', mostrarScroll1);
 window.addEventListener('scroll', mostrarScroll2);

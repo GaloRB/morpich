@@ -22,7 +22,7 @@
 
 @media(max-width:480px) {
     .mision-vision p {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -104,7 +104,7 @@
     .nosotros__img{
         width: 40%;
     }
-    button a {
+    .boton a {
         color: white;
         font-size: 2.8rem;
     }
@@ -112,12 +112,12 @@
     .mision-vision h3 {
         color: var(--orange-color);
         margin-bottom: 0;
-        font-size: 3.8rem;
+        font-size: 2.8rem;
         text-align: center;
     }
     .mision-vision p {
         margin-top: 1rem;
-        font-size: 2.8rem;
+        font-size: 1.8rem;
         padding: 1.8rem 2rem;
         text-align: justify;
     }
@@ -291,16 +291,16 @@
     .mision-vision h3 {
         color: var(--orange-color);
         margin-bottom: 0;
-        font-size: 4.8rem;
+        font-size: 3rem;
         padding-top: 1rem;
         text-align: center;
     }
     .mision-vision p {
         margin-top: 1rem;
-        font-size: 2.6rem;
+        font-size: 2.2rem;
         text-align: justify;
     }
-    button {
+    .boton {
         background-color: var(--orange-color);
         cursor: pointer;
         margin: 2rem auto;
@@ -312,7 +312,7 @@
         box-shadow: 5px 7px 7px #999;
         transition: all 0.5s ease;
     }
-    button a {
+    .boton a {
         display: block;
         color: white;
         font-size: 2.8rem;

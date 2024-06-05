@@ -420,14 +420,15 @@
         color: var(--orange-color);
         font-size: 4.3rem;
         text-align: center;
-        margin-bottom: 0;
+        margin: 0;
+        margin-bottom: 2rem;
     }
     
     .nosotros__title p {
-        font-size: 1.8rem;
+        font-size: 4rem;
         font-weight: 700;
         text-align: center;
-        margin-top: 0;
+        margin: 0;
     }
     
     .nosotros__img__container{
@@ -459,8 +460,17 @@
         box-shadow: 5px 7px 7px #999;
         transition: all 0.5s ease;
     }
+
+    button{
+        border: none;
+        background-color: var(--orange-color);
+        color: #000;
+        font-size: 2rem;
+        font-weight: 700;
+        cursor: pointer;
+    }
     
-    button {
+    .boton {
         background-color: var(--orange-color);
         cursor: pointer;
         margin: 2rem auto;
@@ -473,14 +483,14 @@
         transition: all 0.5s ease;
     }
     
-    button:hover {
+    .boton:hover {
         background-color: rgb(31, 103, 170);
         box-shadow: 5px 12px 7px #999;
     }
 
 
     
-    button a {
+    .boton a {
         display: block;
         color: white;
         font-size: 1.8rem;
@@ -493,7 +503,7 @@
         background-position: center;
         background-blend-mode: soft-light;
         background-color: #353535dc;
-        height: 75vh;
+        height: 85vh;
         color: white;
     }
     
@@ -505,6 +515,7 @@
         color: var(--orange-color);
         margin-bottom: 0;
         font-size: 2.5rem;
+        padding-top: 1rem;
         text-align: center;
     }
     
@@ -617,6 +628,17 @@
     .mapa {
         text-align: center;
     }
+
+    .container__facebook{
+        padding-top: 3rem;
+    }
+
+    .facebook{
+        display: block;
+        width: 80%;
+        text-align: center;
+        margin: 3rem auto;
+    }
     
     .contacto h4 {
         color: white;
@@ -628,7 +650,6 @@
         color: white;
         font-size: 2.5rem;
         text-align: center;
-        margin: 1rem;
     }
     .contacto span {
         display: block;
