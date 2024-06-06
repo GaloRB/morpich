@@ -249,7 +249,7 @@
     }
     
     .container-barra__contact p {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         font-weight: 700;
         margin: 1rem;
     }
@@ -544,6 +544,9 @@
     }
     /* -------- servicios -----------*/
     
+    .servicios{
+        margin: auto 2rem;
+    }
     .servicios h3 {
         color: var(--orange-color);
         font-size: 3.5rem;
@@ -660,6 +663,7 @@
     
     .contacto {
         background-color: #918d8d;
+        padding: auto 2rem;
     }
     
     .contacto h3 {

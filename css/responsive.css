@@ -2,7 +2,7 @@
 
 @media(max-width:320px) {
     .container-barra__contact p {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
     /* frame menu mobile */
     .frame-menu .li {
@@ -24,15 +24,29 @@
     .mision-vision p {
         font-size: 1.5rem;
     }
+    .banner-cotizacion{
+        font-size: 1.4rem;
+    }
+    button{
+        font-size: 1.4rem;
+    }
 }
 
 
 /* smatphones to tablets */
 
-@media(min-width:481px) and (max-width:767px) {}
-.nosotros__img{
-    width: 30%;
+@media(min-width:481px) and (max-width:767px) {
+    .nosotros__img{
+        width: 30%;
+    }
+    .banner-cotizacion{
+        font-size: 1.4rem;
+    }
+    button{
+        font-size: 1.4rem;
+    }
 }
+
 
 /* tablets */
 
