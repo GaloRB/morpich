@@ -570,10 +570,11 @@
 
     .servicios__servicios > div {
         flex: 0 0 30%; /* Cambiado para controlar el ancho de cada div */
+        min-width: 10.3rem;
     }
 
     .servicios_container_icon_text{
-        margin-top: 5rem;
+        margin: 5rem 1rem 0;
     }
 
     .servicios__icon{
