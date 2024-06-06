@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/e954e6d43f.js" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/e954e6d43f.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/lightbox.min.css">
@@ -54,7 +53,7 @@
                 <li><a href="#nos">Nosotros</a></li>
                 <li><a href="#servicios">Servicios</a></li>
                 <li><a href="#contacto">Contacto</a></li>
-                <li><a href="https://www.facebook.com/Montacargas-Gr%C3%BAas-y-Transportes-MGT-340798523775163" target="_blank">Facebook</a></li>
+            
             </ul>
         </div>
 
@@ -62,25 +61,23 @@
             <div id="logo" class="logo">
                 <img src="img/Logo.jpeg" alt="Logotipo Morpich Ingenirería y maquinados%20por%20favor">
             </div>
-
-            <ul class="lista">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#nos">Nosotros</a></li>
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-                <li><a href="https://www.facebook.com/Montacargas-Gr%C3%BAas-y-Transportes-MGT-340798523775163" target="_blank">Facebook</a></li>
-                <li class="li-contact">
-                    Contáctanos: 
-                    <div class="li-contact-num">
-                        <a href="https://api.whatsapp.com/send?phone=+527225064966&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios%20de%20maquinados%20por%20favor." target="_blank"><i class="fab fa-whatsapp"></i> 7225064966</a><br>
-                        <a href="https://api.whatsapp.com/send?phone=+527226645997&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios%20de%20maquinados%20por%20favor." target="_blank"><i class="fab fa-whatsapp"></i> 7226645997</a>
-                    </div>
-                </li>
-            </ul>
-
-            <div>
-                
+            <div class="ul_container">
+                <ul class="lista">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#nos">Nosotros</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    
+                    <li class="li-contact">
+                        Contáctanos: 
+                        <div class="li-contact-num">
+                            <a href="https://api.whatsapp.com/send?phone=+527225064966&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios%20de%20maquinados%20por%20favor." target="_blank"><i class="fab fa-whatsapp"></i> 7225064966</a><br>
+                            <a href="https://api.whatsapp.com/send?phone=+527226645997&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios%20de%20maquinados%20por%20favor." target="_blank"><i class="fab fa-whatsapp"></i> 7226645997</a>
+                        </div>
+                    </li>
+                </ul>
             </div>
+            
 
         </nav>
 
@@ -93,12 +90,12 @@
     </section>
     <section>
         <div class="banner-cotizacion">
-            <p>
+            <p class="banner-cotizacion_text"> 
                 <a style="color: #000;" href="https://api.whatsapp.com/send?phone=+527226645997&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios%20de%20maquinados%20por%20favor." target="_blank">Solicita tu cotización ></a>
             </p>
-            <button onClick="DownloadFromUrl('http://127.0.0.1:5500/Morpich-master/CARTA_PRESENTACION.pdf',
+            <button class="banner-cotizacion_text" onClick="DownloadFromUrl('http://127.0.0.1:5500/Morpich-master/CARTA_PRESENTACION.pdf',
             'Carta Presentación Ingenirería y Maquinados MORPICH.pdf')"> 
-                Descargar carta de presentación >
+                Descargar nuestra carta de presentación >
         </button>
         </div>
     </section>
@@ -161,111 +158,102 @@
     <section id="servicios" class="servicios">
         <h3>SERVICIOS</h3>
         <div class="servicios__list">
-            <ul class="">
-                <li> Contamos con dos centros de maquinado con capacidad de 650mm*400mm en
+            <div class="servicios__text">
+                <p>
+                    Contamos con dos centros de maquinado con capacidad de 650mm*400mm en
                     ambas maquinas, torno de 1 m entre centros, fresadora con capacidad de
                     760mm*300mm y rectificadora de superficies planas con capacidad de
-                    520mm*220mm para el mecanizado y rectificado de cualquier pieza requerida.
-                    </li>
-                <div class="toca">
-                    <span>Toca para mas fotos</span>
-                    <i class="fas fa-angle-down"></i>
-                </div>
-                <div class="trabajos-img animacion-abajo">
-                    <div class="gallery-card">
-                        <a href="img/maquina.jpeg" data-lightbox="preventivo"><img src="img/maquina.jpeg" alt="mantenimierno preventivo a montacargas"></a>
-                        <a href="img/maquina1.jpeg" data-lightbox="preventivo"></a>
-                        <a href="img/maquina2.jpeg" data-lightbox="preventivo"></a>
+                    520mm*220mm para el mecanizado y rectificado de cualquier pieza requerida.<br><br>
+                    Ofrecemos servicio de maquinado en CNC de alta precisión, con los estándares de calidad y contando con equipo de
+                    medición certificado.  
+                </p>
+            </div>
+
+            <div class="servicios__servicios">
+                <div class="servicios_container_icon_text">
+                    <div class="servicios__icon">
+                        <i class="fa fa-regular fa-gear"></i>
                     </div>
+                    <span>
+                        Fabricación y ensamble<br> de dispositivos
+                    </span>
                 </div>
-                <li>Ofrecemos servicio de maquinado en CNC de alta precisión, con los estándares de calidad y contando con equipo de
-                    medición certificado.</li>
-                <div class="toca">
-                    <span>Toca para mas fotos</span>
-                    <i class="fas fa-angle-down"></i>
-                </div>
-                <div class="trabajos-img animacion-abajo">
-                    <div class="gallery-card">
-                        <a href="img/maquina3.jpeg" data-lightbox="correctivo"><img src="img/maquina3.jpeg" alt="mantenimierno correctivo a montacargas"></a>
-                        <a href="img/maquina4.jpeg" data-lightbox="correctivo"></a>
-                        <a href="img/maquina5.jpeg" data-lightbox="correctivo"></a>
-
+                <div class="servicios_container_icon_text">
+                    <div class="servicios__icon">
+                        <i class="fa fa-regular fa-gear"></i>
                     </div>
+                    <span>
+                        Manteniemiento industrial<br>CNC y convencional
+                    </span>
                 </div>
-                <!-- <li>Ventas :contamos con equipos nuevos y seminuevos en marca YALE, HYSTER , NISSAN, CLARCK , KOMATZU, TOLLOTA y muchas más...</li>
-                <div class="toca">
-                    <span>Toca para mas fotos</span>
-                    <i class="fas fa-angle-down"></i>
-                </div>
-
-                <div class="trabajos-img animacion-abajo">
-                    <div class="gallery-card">
-                        <a href="img/foto-montacargas (6).jpeg" data-lightbox="venta"><img src="img/foto-montacargas (6).jpeg" alt="ventas de montacargas"></a>
-                        <a href="img/foto-montacargas (2).jpeg" data-lightbox="venta"></a>
-                        <a href="img/foto-montacargas (3).jpeg" data-lightbox="venta"></a>
-                        <a href="img/foto-montacargas (4).jpeg" data-lightbox="venta"></a>
-                        <a href="img/foto-montacargas (5).jpeg" data-lightbox="venta"></a>
-                        <a href="img/foto-montacargas.jpeg" data-lightbox="venta"></a>
-                        <a href="img/foto-montacargas (7).jpeg" data-lightbox="venta"></a>
-
+                <div class="servicios_container_icon_text">
+                    <div class="servicios__icon">
+                        <i class="fa fa-regular fa-gear"></i>
                     </div>
+                    <span>
+                        Desarrollo de producto
+                    </span>
                 </div>
-                <li>Rentas : contamos con el equipo para cualquier situación requerida.</li>
-                <ul>
-                    <li>Planes de Renta a largo plazo.</li>
-                    <li>Planes de renovación de equipos.</li>
-                    <li>Planes de cuotas mensuales.</li>
-                </ul>
-                <div class="toca">
-                    <span>Toca para mas fotos</span>
-                    <i class="fas fa-angle-down"></i>
-                </div>
-
-                <div class="trabajos-img animacion-abajo">
-                    <div class="gallery-card">
-                        <a href="img/foto-montacargas.jpeg" data-lightbox="renta"><img src="img/foto-montacargas.jpeg" alt="rentas de montacragas"></a>
-                        <a href="img/foto-montacargas (7).jpeg" data-lightbox="renta"></a>
-                        <a href="img/foto-montacargas (2).jpeg" data-lightbox="renta"></a>
-                        <a href="img/foto-montacargas (3).jpeg" data-lightbox="renta"></a>
-                        <a href="img/foto-montacargas (5).jpeg" data-lightbox="renta"></a>
-                        <a href="img/foto-montacargas.jpeg" data-lightbox="renta"></a>
-                        <a href="img/foto-montacargas (4).jpeg" data-lightbox="renta"></a>
-
+                <div class="servicios_container_icon_text">
+                    <div class="servicios__icon">
+                        <i class="fa fa-regular fa-gear"></i>
                     </div>
+                    <span>
+                        Construcción de<br> herramentales
+                    </span>
                 </div>
-                <li>Refacciones: contamos con un amplio stock de refacciones originales y de calidad para diferentes marcas en nuestra empresa.</li>
-                <div class="toca">
-                    <span>Toca para mas fotos</span>
-                    <i class="fas fa-angle-down"></i>
-                </div>
-                <div class="trabajos-img animacion-abajo">
-                    <div class="gallery-card">
-                        <a href="img/refaccion-montacargas (14).jpeg" data-lightbox="refacciones"><img src="img/refaccion-montacargas (14).jpeg" alt="refacciones de montacargas"></a>
-                        <a href="img/refaccion-montacargas.jpeg" data-lightbox="refacciones"></a>
-                        <a href="img/refaccion-montacargas (2).jpeg" data-lightbox="refacciones"></a>
-                        <a href="img/refaccion-montacargas (3).jpeg" data-lightbox="refacciones"></a>
-                        <a href="img/refaccion-montacargas (4).jpeg" data-lightbox="refacciones"></a>
-                        <a href="img/refaccion-montacargas (5).jpeg" data-lightbox="refacciones"></a>
-                        <a href="img/refaccion-montacargas (6).jpeg" data-lightbox="refacciones"></a>
-                        <a href="img/refaccion-montacargas (7).jpeg" data-lightbox="refacciones"></a>
-                        <a href="img/refaccion-montacargas (8).jpeg" data-lightbox="refacciones"></a>
-                        <a href="img/refaccion-montacargas (9).jpeg" data-lightbox="refacciones"></a>
-                        <a href="img/refaccion-montacargas (10).jpeg" data-lightbox="refacciones"></a>
-                        <a href="img/refaccion-montacargas (11).jpeg" data-lightbox="refacciones"></a>
-                        <a href="img/refaccion-montacargas (12).jpeg" data-lightbox="refacciones"></a>
-                        <a href="img/refaccion-montacargas (13).jpeg" data-lightbox="refacciones"></a>
-                        <a href="img/refaccion-montacargas (18).jpeg" data-lightbox="refacciones"></a>
-                        <a href="img/refaccion-montacargas (15).jpeg" data-lightbox="refacciones"></a>
-                        <a href="img/refaccion-montacargas (16).jpeg" data-lightbox="refacciones"></a>
-                        <a href="img/refaccion-montacargas (17).jpeg" data-lightbox="refacciones"></a>
-                        <a href="img/refaccion-montacargas (19).jpeg" data-lightbox="refacciones"></a>
+                <div class="servicios_container_icon_text">
+                    <div class="servicios__icon">
+                        <i class="fa fa-regular fa-gear"></i>
                     </div>
-                </div> -->
-            </ul>
-        </div>
+                    <span>
+                        Transformación de <br>metal-mecánica
+                    </span>
+                </div>
+                <div class="servicios_container_icon_text">
+                    <div class="servicios__icon">
+                        <i class="fa fa-regular fa-gear"></i>
+                    </div>
+                    <span>
+                        Fabricación y ensamble<br> de dispositivos
+                    </span>
+                </div>
+            </div>
 
-        <div class="servicios__promo animacion-izquierda">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit error deleniti quaerat tempore sed hic accusamus. Dolores eos similique quibusdam accusantium</p>
+           
+                <div class="container__gallery">
+                    <div class="trabajos-img animacion-abajo">
+                        <div class="gallery-card">
+                            <a href="img/10.png" data-lightbox="1"><img src="img/10.png" alt="___"></a>
+                            <a href="img/8.png" data-lightbox="1"></a>
+                            <a href="img/9.png" data-lightbox="1"></a>
+                            <a href="img/WhatsApp Image 2024-06-04 at 2.34.28 PM (4).jpeg" data-lightbox="1"></a>
+                        </div>
+                    </div>
+                   
+                    <div class="trabajos-img animacion-abajo">
+                        <div class="gallery-card">
+                            <a href="img/7.png" data-lightbox="2"><img src="img/7.png" alt="___"></a>
+                            <a href="img/WhatsApp Image 2024-06-04 at 2.34.27 PM.jpeg" data-lightbox="2"></a>
+                            <a href="img/WhatsApp Image 2024-06-04 at 2.34.28 PM (1).jpeg" data-lightbox="2"></a>
+                            <a href="img/WhatsApp Image 2024-06-04 at 2.34.28 PM.jpeg" data-lightbox="2"></a>
+                        </div>
+                    </div>
+
+                    <div class="trabajos-img animacion-abajo">
+                        <div class="gallery-card">
+                            <a href="img/11.png" data-lightbox="3"><img src="img/11.png" alt="___"></a>
+                            <a href="img/WhatsApp Image 2024-06-04 at 2.34.28 PM (2).jpeg" data-lightbox="3"></a>
+                            <a href="img/WhatsApp Image 2024-06-04 at 2.34.28 PM (3).jpeg" data-lightbox="3"></a>
+                            <a href="img/WhatsApp Image 2024-06-04 at 2.34.29 PM (1).jpeg" data-lightbox="3"></a>
+                            <a href="img/WhatsApp Image 2024-06-04 at 2.34.29 PM.jpeg" data-lightbox="3"></a>
+                        </div>
+                    </div>
+
+                  
+                </div>
+                
+    
         </div>
 
 
@@ -324,7 +312,6 @@
 
         <div class="mapa">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.3858448572087!2d-99.5714345!3d19.309056299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cd8b0076b989bd%3A0xbd35c9b5d2db03bc!2sIngenier%C3%ADa%20y%20maquinados%20MORPICH%20S.A.%20DE%20C.V.!5e0!3m2!1ses-419!2smx!4v1717569789530!5m2!1ses-419!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <iframe src="https://www.google.com/maps/embed?pb=!4v1717569873950!6m8!1m7!1sYEaFB2gCeOblzcUd_syYrw!2m2!1d19.30911014499996!2d-99.57141284571469!3f185.026011907238!4f-1.7597880924101332!5f0.7820865974627469" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
 

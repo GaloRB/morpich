@@ -244,7 +244,7 @@
         transition: all 0.3s ease;
     }
     .lista a:hover {
-        background-color: rgb(240, 234, 240);
+        text-decoration: underline;
     }
     /* banner*/
     .banner__title h1 span {
@@ -426,6 +426,7 @@
     .lista {
         display: flex;
         align-items: center;
+        
     }
     .lista .li-contact {
         color: #fff;
@@ -434,7 +435,7 @@
         padding: 0.5rem 3rem;
         background-color: var(--orange-color);
         border-radius: 1rem;
-        margin-left: 2rem;
+        
         box-shadow: 5px 7px 7px #999;
         transition: all 0.5s ease;
     }
@@ -451,7 +452,7 @@
     }
     .lista a {
         padding: 4rem 2rem;
-        font-size: 3.5rem;
+        font-size: 2.5rem;
         color: black;
         transition: all 0.3s ease;
     }
@@ -460,7 +461,7 @@
     }
     /* banner*/
     .banner {
-        height: 80vh;
+        height: 78vh;
         background-attachment: fixed;
     }
     .banner__title h1 span {
@@ -520,18 +521,10 @@
     }
     .servicios__list li {
         padding: 2rem;
-        font-size: 2.9rem;
+        font-size: 2.2rem;
     }
-    .trabajos-img {
-        margin: 2rem 16rem 2rem 10rem;
-        overflow: hidden;
-    }
-    .trabajos-img img {
-        width: 100%;
-        max-height: 35rem;
-        object-fit: cover;
-        transition: all 0.3s ease;
-    }
+    
+   
     .servicios__promo p {
         text-align: center;
         font-weight: 700;

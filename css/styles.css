@@ -12,7 +12,7 @@
     }
     
      :root {
-        --orange-color: rgb(237 125 49);
+        --orange-color: rgb(113, 132, 136);
         --text-color: rgb(97, 96, 96);
     }
     
@@ -261,6 +261,15 @@
     
     .nav {
         display: none;
+        align-items: center;
+    }
+
+    .ul_container{
+        margin-right: 10rem;
+    }
+
+    .lista .li-contact {
+        margin-left: 4rem;
     }
     
     .burger-menu {
@@ -364,7 +373,7 @@
     /* ------- banner -----------*/
     
     .banner {
-        background-image: url(../img/bannerportada-temporal.jpg);
+        background-image: url(../img/10.png);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -383,12 +392,15 @@
         font-size: 2rem;
         font-weight: 700;
         text-align: center;
-
     }
 
     .banner-cotizacion p{
        margin: 0;
        padding: 18px 0;
+    }
+
+    .banner-cotizacion_text:hover{
+        text-decoration: underline;
     }
 
     .banner__title{
@@ -498,7 +510,7 @@
     /* -------------- mision-vision -----------------*/
     
     .mision-vision {
-        background-image: url(../img/maquinado_vision.jpeg);
+        background-image: url(../img/maquina.jpeg);
         background-size: cover;
         background-position: center;
         background-blend-mode: soft-light;
@@ -537,6 +549,41 @@
         font-size: 3.5rem;
         text-align: center;
         margin-bottom: 0;
+    }
+
+    .servicios__text{
+        font-size: 2.1rem;
+        color: #000;
+        text-align: center;
+    }
+
+    .servicios__servicios{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .servicios__servicios > div {
+        flex: 0 0 30%; /* Cambiado para controlar el ancho de cada div */
+    }
+
+    .servicios_container_icon_text{
+        margin-top: 5rem;
+    }
+
+    .servicios__icon{
+        font-size: 5rem;
+        color: #000;
+        text-align: center;
+        
+    }
+
+    .servicios__servicios span{
+        font-size: 2rem;
+        color: #000;
+        text-align: center;
+        display: block;
+        
     }
     
     .servicios__list ul {
@@ -580,17 +627,29 @@
         flex-direction: column;
         align-items: center;
     }
+
+    .container__gallery{
+        display: flex;
+        margin-top: 3rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
     
-    .trabajos-img {
-        margin: 2rem 4rem 2rem 1rem;
+    .trabajos-img { 
         overflow: hidden;
+        width: 30rem;
+        margin: 0.5rem;
+    }
+
+    .gallery-card{
+        width: 30rem;   
     }
     
     .trabajos-img img {
         width: 100%;
-        max-height: 25rem;
-        object-fit: cover;
+        display: inline-block;
         transition: all 0.5s ease;
+        height: 30rem;
     }
     
     .trabajos-img img:hover {
