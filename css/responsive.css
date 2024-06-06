@@ -12,11 +12,18 @@
     .mision-vision p {
         font-size: 1.2rem;
     }
+
+    .servicios__servicios{
+        display: block;
+    }
 }
 
 @media(min-width:350px) and (max-width:360px) {
     .frame-menu .li {
         margin-top: 5rem;
+    }
+    .servicios__servicios{
+        display: block;
     }
 }
 
@@ -30,6 +37,9 @@
     button{
         font-size: 1.4rem;
         margin: 1.8rem auto;
+    }
+    .servicios__servicios{
+        display: block;
     }
 }
 
@@ -343,6 +353,7 @@
         text-align: center;
         margin-bottom: 0;
     }
+    
     .servicios__list ul {
         list-style-type: disc;
         margin: auto 5rem;
