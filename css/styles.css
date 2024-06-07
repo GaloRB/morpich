@@ -114,25 +114,40 @@
     }
     /* -------------- slide ----------*/
     
-    .slideshow {
+    .slider{
+        margin: 0 3rem;
+        padding: 0;
+    }
+
+    .slider li{
+        text-align: center;
+    }
+
+    .slider li img{
+        object-fit: contain;
+        max-height: 40rem;
+    }
+
+    /* .slideshow {
         width: 90%;
         position: relative;
-    }
+        margin-bottom: 4rem;
+    } */
     
-    .slider li,
+    /* .slider li,
     ul {
         width: 100%;
-    }
+    } */
     
-    .slider li {
+   /*  .slider li {
         overflow: hidden;
     }
     
     .slider li img {
         width: 100%;
-    }
+    } */
     
-    .slider .caption {
+    /* .slider .caption {
         position: absolute;
         width: 100%;
         height: 100%;
@@ -155,7 +170,7 @@
     .slider .caption p {
         margin-top: 10px;
         font-size: 20px;
-    }
+    } */
     
     .pagination {
         position: absolute;
@@ -373,17 +388,25 @@
     }
     /* ------- banner -----------*/
     
+
     .banner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         background-image: url(../img/10.png);
         background-size: cover;
         background-position: center;
-        background-repeat: no-repeat;
         background-blend-mode: soft-light;
-        background-color: #353535dc;
-        height: 70vh;
+        background-color: #3535354c;
+        height: 76.5vh;
+    }
+
+    .banner h1{
+        margin-top: 6rem;
         color: white;
+        font-size: 3.8rem;
         text-align: center;
-        vertical-align: middle;
+        text-shadow: 20px 10px 8px black;
     }
 
     .banner-cotizacion{
@@ -404,7 +427,7 @@
         text-decoration: underline;
     }
 
-    .banner__title{
+    /* .banner__title{
         padding-top: 8rem;
     }
     
@@ -422,26 +445,17 @@
     .banner__title h1 span {
         font-size: 3rem;
         color: white;
-    }
+    } */
 
     .nosotros{
         display: block;
         margin: 2rem;
     }
     
-    .nosotros__title h2 {
+    .nosotros__title {
         color: var(--orange-color);
-        font-size: 4.3rem;
+        font-size: 2.3rem;
         text-align: center;
-        margin: 0;
-        margin-bottom: 2rem;
-    }
-    
-    .nosotros__title p {
-        font-size: 4rem;
-        font-weight: 700;
-        text-align: center;
-        margin: 0;
     }
     
     .nosotros__img__container{
@@ -456,7 +470,7 @@
 
     .nosotros__historia p {
         color: var(--text-color);
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         text-align: justify;
         margin: auto;
     }
@@ -516,7 +530,7 @@
         background-size: cover;
         background-position: center;
         background-blend-mode: soft-light;
-        background-color: #353535dc;
+        background-color: #3579c272;
         height: 85vh;
         color: white;
     }
@@ -541,23 +555,26 @@
     }
     
     .mision-vision-text-background {
-        background-color: rgba(19, 18, 18, 0.74);
+        background-color: rgba(36, 35, 35, 0.74);
         border-radius: 15px;
     }
     /* -------- servicios -----------*/
     
     .servicios{
-        margin: auto 2rem;
+        margin: 1rem;
+        background-color: #ccd2dbb3;
+        border-radius: 2rem;
+        padding: 2rem;
     }
     .servicios h3 {
         color: var(--orange-color);
         font-size: 3.5rem;
         text-align: center;
-        margin-bottom: 0;
+        margin: 0;
     }
 
     .servicios__text{
-        font-size: 2.1rem;
+        font-size: 1.6rem;
         color: #000;
         text-align: center;
     }
@@ -614,14 +631,25 @@
     
     .distribuidores {
         background-color: rgb(34, 34, 34);
+        padding-bottom: 1.8rem;
     }
     
-    .distribuidores p {
+    .distribuidores h3 {
         text-align: center;
         color: rgb(226, 226, 226);
-        padding: 2rem;
-        font-size: 1.8rem;
+        padding: 1rem;
+        font-size: 3.5rem;
         margin-bottom: 0;
+    }
+
+    .distribuidores__text{
+        margin: auto 2rem;
+    }
+
+    .distribuidores__text p{
+        font-size: 1.6rem;
+        color: rgb(226, 226, 226);
+        text-align: center;
     }
     
     .distribuidores span {

@@ -29,7 +29,7 @@
 
 @media(max-width:480px) {
     .mision-vision p {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
     .banner-cotizacion{
         font-size: 1.4rem;
@@ -184,10 +184,10 @@
         align-items: center;
     }
     /* -------------- slide ----------*/
-    .slideshow {
+    /* .slideshow {
         width: 95%;
         position: relative;
-    }
+    } */
     /* ------------- CONTACTO ---------------*/
     .contacto h3 {
         font-size: 5rem;
@@ -345,13 +345,17 @@
     }
     /* -------- servicios -----------*/
     .servicios {
-        margin: auto 4rem;
+        margin: 2rem;
+        
     }
     .servicios h3 {
         color: var(--orange-color);
         font-size: 4.8rem;
         text-align: center;
-        margin-bottom: 0;
+    }
+
+    .servicios__text p{
+        font-size: 2rem;
     }
     
     .servicios__list ul {
@@ -362,8 +366,12 @@
         padding: 1rem;
         font-size: 2.9rem;
     }
+
+    .distribuidores__text{
+        margin: auto 4rem;
+    }
     .trabajos-img {
-        margin: 2rem 16rem 2rem 10rem;
+        /* margin: 2rem 16rem 2rem 10rem; */
         overflow: hidden;
     }
     .trabajos-img img {
@@ -381,8 +389,8 @@
     .distribuidores p {
         text-align: center;
         color: rgb(226, 226, 226);
-        padding: 2rem;
-        font-size: 3.2rem;
+        padding: 1rem;
+        font-size: 2.1rem;
     }
     .toca {
         font-size: 2.2rem;
@@ -390,10 +398,10 @@
         flex-direction: column;
         align-items: center;
     }
-    .slideshow {
+    /* .slideshow {
         width: 100%;
         position: relative;
-    }
+    } */
     /* ------------- CONTACTO ---------------*/
     .contacto h3 {
         font-size: 5rem;
@@ -488,10 +496,12 @@
     }
     /* banner*/
     .banner {
-        height: 77vh;
         background-attachment: fixed;
     }
-    .banner__title h1 span {
+    .banner h1{
+        font-size: 6rem;
+    }
+    /* .banner__title h1 span {
         font-size: 4rem;
         color: white;
     }
@@ -504,7 +514,7 @@
         text-align: center;
         text-transform: uppercase;
         padding: 1rem;
-    }
+    } */
     /* nosotros*/
     .nosotros {
         display: flex;
@@ -530,18 +540,22 @@
     }
     .mision-vision p {
         margin-top: 1rem;
-        font-size: 2.6rem;
+        font-size: 2.2rem;
         text-align: justify;
     }
     /* -------- servicios -----------*/
     .servicios {
-        margin: auto 10rem;
+        margin: 2rem;
+        
     }
     .servicios h3 {
         color: var(--orange-color);
         font-size: 4.2rem;
         text-align: center;
         margin-bottom: 0;
+    }
+    .servicios__text p{
+        font-size: 2rem;
     }
     .servicios__list ul {
         list-style-type: disc;
@@ -563,11 +577,20 @@
         margin: 4rem 10rem;
         font-size: 3rem;
     }
-    .distribuidores p {
+
+    .distribuidores__text{
+        margin: auto 10rem;
+    }
+
+    .distribuidores h3 {
         text-align: center;
         color: rgb(226, 226, 226);
-        padding: 4rem 12rem;
-        font-size: 3.2rem;
+        padding: 2rem;
+        font-size: 4.5rem;
+    }
+
+    .distribuidores__text p{
+        font-size: 2rem;
     }
     .toca {
         font-size: 2.2rem;
@@ -575,9 +598,9 @@
         flex-direction: column;
         align-items: center;
     }
-    .slider li img {
+    /* .slider li img {
         width: 50%;
         height: 30rem;
-        margin-left: 35rem;
-    }
+        margin-left: 37rem;
+    } */
 }
