@@ -573,6 +573,10 @@
         margin: 0;
     }
 
+    .servicios__equipo{
+        margin-top: 4rem;
+    }
+
     .servicios__text{
         font-size: 1.6rem;
         color: #000;
