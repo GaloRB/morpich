@@ -617,14 +617,14 @@
         text-align: center;
     }
     
-    .servicios__list ul {
+    /* .servicios__list ul {
         list-style-type: disc;
     }
     
     .servicios__list li {
         padding: 1rem;
         font-size: 1.5rem;
-    }
+    } */
     
     .servicios__promo p {
         text-align: center;
@@ -691,13 +691,46 @@
         width: 100%;
         display: inline-block;
         transition: all 0.5s ease;
-        height: 30rem;
+        height: 20rem;
     }
 
     
     .trabajos-img img:hover {
         transform: scale(1.2);
     }
+
+    /* --------- PROYECTOS ----------------- */
+    .proyectos{
+        margin: 1rem;
+        padding: 2rem;
+    }
+    .proyectos__title{
+        margin-top: 3rem;
+    }
+    .proyectos__container p{
+        font-size: 1.6rem;
+        color: black;
+        text-align: center;
+        margin-top: 3rem;
+    }
+    .proyectos__container p i{
+        font-size: 1.6rem;
+        margin-top: 1rem;
+    }
+    .proyectos h3 {
+        color: var(--orange-color);
+        font-size: 3.5rem;
+        text-align: center;
+        margin: 0;
+    }
+
+    .proyectos h4{
+        color: black;
+        font-size: 3.5rem;
+        text-align: center;
+        margin: 0;
+    }
+
     /* ------------- CONTACTO ---------------*/
     
     .contacto {

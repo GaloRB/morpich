@@ -154,7 +154,7 @@
         text-align: center;
         margin-bottom: 0;
     }
-    .servicios__list {
+    /* .servicios__list {
         margin-right: 10rem;
     }
     .servicios__list ul {
@@ -164,7 +164,7 @@
     .servicios__list li {
         padding: 1rem;
         font-size: 2.7rem;
-    }
+    } */
     .servicios__promo p {
         text-align: center;
         font-weight: 700;
@@ -358,14 +358,14 @@
         font-size: 2rem;
     }
     
-    .servicios__list ul {
+   /*  .servicios__list ul {
         list-style-type: disc;
         margin: auto 5rem;
     }
     .servicios__list li {
         padding: 1rem;
         font-size: 2.9rem;
-    }
+    } */
 
     .distribuidores__text{
         margin: auto 4rem;
@@ -548,6 +548,10 @@
         margin: 2rem;
         
     }
+
+    .servicios__text{
+        margin: auto 10rem;
+    }
     .servicios h3 {
         color: var(--orange-color);
         font-size: 4.2rem;
@@ -557,13 +561,13 @@
     .servicios__text p{
         font-size: 2rem;
     }
-    .servicios__list ul {
+    /* .servicios__list ul {
         list-style-type: disc;
     }
     .servicios__list li {
         padding: 2rem;
         font-size: 2.2rem;
-    }
+    } */
 
     .container__gallery p{
         font-size: 1.8rem;
@@ -592,6 +596,16 @@
     .distribuidores__text p{
         font-size: 2rem;
     }
+
+    .proyectos__title{
+        margin-top: 3rem;
+    }
+
+    .proyectos__container{
+        margin: auto 10rem;
+    }
+
+    
     .toca {
         font-size: 2.2rem;
         display: flex;
