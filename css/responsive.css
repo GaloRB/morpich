@@ -36,7 +36,7 @@
     }
     button{
         font-size: 1.4rem;
-        margin: 1.8rem auto;
+        margin: 1rem auto;
     }
     .servicios__servicios{
         display: block;
@@ -55,7 +55,7 @@
     }
     button{
         font-size: 1.4rem;
-        margin: 1.8rem auto;
+        margin: 1rem auto;
     }
 }
 
@@ -488,7 +488,7 @@
     }
     /* banner*/
     .banner {
-        height: 78vh;
+        height: 77vh;
         background-attachment: fixed;
     }
     .banner__title h1 span {
@@ -549,6 +549,11 @@
     .servicios__list li {
         padding: 2rem;
         font-size: 2.2rem;
+    }
+
+    .container__gallery p{
+        font-size: 1.8rem;
+        text-align: center;
     }
     
    
